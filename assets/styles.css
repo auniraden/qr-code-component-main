@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Outift", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #D5E1EF;
+    padding: 20px;
+}
+
+main{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+    padding: 20px;
+
+}
+.title{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #1f314f;
+}
+
+.description{
+    font-size: 1rem;
+    color: #6E8098;
+    margin-top: 10px;
+}
+
+
+.QRCard{
+    width: 100%;
+    max-width: 350px;
+}
+
+@media (max-width: 768px){
+    .container{
+        padding: 15px;
+    }
+    .title{
+        font-size: 1.2rem;
+    }
+    .description{
+        font-size: 0.9rem;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+      }
+
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+  }
